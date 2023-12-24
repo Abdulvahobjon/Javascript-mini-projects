@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.row{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 420px;
+  justify-content: space-between;
+}
+
+.col{
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  border: 2px solid #333;
+}
+
+.images{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/js.jpg");
+  border-radius: 20px;
+  background-size: cover;
+}
+
+.hoverAdd{
+  border: 2px dotted black;
+}

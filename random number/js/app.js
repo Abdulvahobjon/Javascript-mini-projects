@@ -13,7 +13,8 @@ function generateRamdomNumber(){
 // copy text 
 function copyRandamNumber(){
   navigator.clipboard.writeText(randomNumberText.textContent)
-  .then(item => console.log("clipboardga malumot nushalandi:" + randomNumberText.textContent)).catch(err => console.error("clipboardga malumot nushalashda xoto bor" ,err))
+  .then(item => console.log("clipboardga malumot nushalandi:" + randomNumberText.textContent))
+  .catch(err => console.error("clipboardga malumot nushalashda xoto bor" ,err))
 }
 
 randomNumberBtn.addEventListener('click' , generateRamdomNumber)
